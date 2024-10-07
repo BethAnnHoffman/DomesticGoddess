@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BethAnn Hoffman - Domestic Goddess</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        h2 {
+            color: #cc0000;
+        }
+        nav {
+            background-color: #cc0000;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 3rem;
+            background-color: white;
+            margin: 2rem auto;
+            max-width: 1200px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills ul li {
+            background-color: #ddd;
+            color: #000;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-left: 5px solid #cc0000;
+        }
+        .projects .project {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form input, 
+        .contact form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+        }
+        .contact form button {
+            padding: 10px;
+            background-color: #cc0000;
+            color: white;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BethAnn Hoffman</h1>
+        <p>The Domestic Goddess</p>
+    </header>
+
+    <nav>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Home Organization & Management</li>
+            <li>Creative Cooking & Baking</li>
+            <li>Interior Design</li>
+            <li>DIY Crafting</li>
+            <li>Event Planning</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Home Renovation</h3>
+            <p>Complete kitchen remodel including custom cabinetry, tiling, and lighting design.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2: Event Planning for Charity Gala</h3>
+            <p>Organized and executed a successful charity event with over 200 attendees, featuring a silent auction and live music.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3: DIY Craft Workshop</h3>
+            <p>Hosted a DIY craft workshop teaching attendees how to make seasonal decor and custom home accents.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BethAnn Hoffman - Domestic Goddess</p>
+    </footer>
+</body>
+</html>
